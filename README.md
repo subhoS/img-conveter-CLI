@@ -1,9 +1,10 @@
+# Title: Picture To Jpeg Converter
+
 <h2>Usage</h2>
 <h4>The script can be run from the command line using the following command:</h4>
 Where <folder> is the path of the folder containing images that need to be converted.
 
 <pre>python convert_images.py <folder></pre>
-
 
 <h2>Required Libraries</h2>
 
