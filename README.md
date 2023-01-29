@@ -1,4 +1,6 @@
-# Title: Picture To Jpeg Converter
+# Picture To Jpeg Converter
+
+<hr>
 
 <h2>Usage</h2>
 <h4>The script can be run from the command line using the following command:</h4>
