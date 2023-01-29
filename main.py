@@ -8,7 +8,7 @@ def convert_images(folder):
     files_count = 0
     for subdir, dirs, files in os.walk(folder):
         files_count += len(files)
-    with tqdm(total=files_count, desc="Converting Images", unit="files") as pbar:
+    with tqdm(total=files_count, desc="Converting Images", unit="files", dynamic_ncols=True, leave=False) as pbar:
         for subdir, dirs, files in os.walk(folder):
             for file in files:
                 try:
